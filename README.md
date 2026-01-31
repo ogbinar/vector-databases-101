@@ -3,6 +3,8 @@
 This repository accompanies a short educational talk for the  
 [UP Data Science Society](https://www.facebook.com/updatasciencesociety).
 
+Slides can be found [here](https://docs.google.com/presentation/d/1ucp88yX1EVEFKIXVw6rO_jrdgOAtIhTfAYdIxR-uBzg/edit?usp=sharing).
+
 It introduces **vector databases from first principles**—what they are, what they are not, and where they fit in modern data science and AI pipelines.
 
 The focus is on **understanding similarity, retrieval, and limitations**, not hype or vendor tools.
