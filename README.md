@@ -25,37 +25,41 @@ The focus is on **understanding similarity, retrieval, and limitations**, not hy
 You can run everything **without local setup** using Google Colab.
 
 Start here:
-- **04_Semantic_Search_End_to_End.ipynb** ← main demo notebook
+- **0401_Embeddings_and_Encoding_Basics.ipynb** ← main demo notebook
 
 Open any notebook in Colab by replacing `github.com` with `colab.research.google.com/github` in the URL.
 
 Example:
-```
-
-[https://colab.research.google.com/github/ogbinar/vector-databases-101/blob/main/04_Semantic_Search_End_to_End.ipynb](https://colab.research.google.com/github/ogbinar/vector-databases-101/blob/main/04_Semantic_Search_End_to_End.ipynb)
-
-````
+[https://colab.research.google.com/github/ogbinar/vector-databases-101/blob/main/01_Embeddings_and_Encoding_Basics.ipynb](https://colab.research.google.com/github/ogbinar/vector-databases-101/blob/main/01_Embeddings_and_Encoding_Basics.ipynb)
 
 ---
 
 ## Running Locally (Optional)
 
 ```bash
+
+# 1) Clone the repository
 git clone https://github.com/ogbinar/vector-databases-101.git
 cd vector-databases-101
-pip install -r requirements.txt
-jupyter lab
+
+# 2) Create and activate a uv virtual environment
+uv venv
+source .venv/bin/activate   # macOS / Linux
+# .venv\Scripts\activate    # Windows (PowerShell)
+
+# 3) Install dependencies
+uv pip install -r requirements.txt
+
 ````
 
 ---
 
-## Recommended Learning Order
+## Notebooks used in the presentation
 
 1. `01_Embeddings_and_Encoding_Basics.ipynb`
-2. `02_Similarity_Metrics_Intuition.ipynb`
-3. `03_FAISS_Building_a_Vector_Index.ipynb`
-4. `04_Semantic_Search_End_to_End.ipynb`
-5. `05_Failure_Cases_and_Limitations.ipynb`
+2. `04_Semantic_Search_End_to_End.ipynb`
+3. `05_Failure_Cases_and_Limitations.ipynb`
+4. (bonus, if there is time) `08_Mini_RAG_Retrieve_Then_Answer_No_Hype.ipynb`
 
 The remaining notebooks explore evaluation, metadata, and retrieval-augmented generation (RAG).
 
