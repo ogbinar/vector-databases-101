@@ -1,7 +1,6 @@
 # Vector Databases 101
 
-This repository accompanies a short educational talk for the  
-[UP Data Science Society](https://www.facebook.com/updatasciencesociety).
+This repository accompanies a short educational talk for the [UP Data Science Society](https://www.facebook.com/updatasciencesociety).
 
 Slides can be found [here](https://docs.google.com/presentation/d/1ucp88yX1EVEFKIXVw6rO_jrdgOAtIhTfAYdIxR-uBzg/edit?usp=sharing).
 
